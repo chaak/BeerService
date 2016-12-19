@@ -8,6 +8,6 @@ import org.springframework.stereotype.Repository;
  * Created by JakubWitczak on 18.12.2016.
  */
 @Repository
-public interface BeerDAO extends JpaRepository<Beer, Long>{
-    Beer findByIndexNumber(String indexNumber);
+public interface BeerDAO extends JpaRepository<Beer, Long> {
+    Beer findByBeerName(String beerName);
 }
