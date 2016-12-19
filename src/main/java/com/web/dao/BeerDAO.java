@@ -9,5 +9,4 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface BeerDAO extends JpaRepository<Beer, Long> {
-    Beer findByBeerName(String beerName);
 }

@@ -3,18 +3,22 @@ package com.web.services.impl;
 import com.web.dao.BeerDAO;
 import com.web.model.Beer;
 import com.web.services.BeerService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 /**
  * Created by JakubWitczak on 18.12.2016.
  */
+@Service
 public class DefaultBeerService implements BeerService {
+    @Autowired
     BeerDAO beerDAO;
 
     @Override
     public List<Beer> getAllBeers() {
-        return null;
+        return beerDAO.findAll();
     }
 
     @Override

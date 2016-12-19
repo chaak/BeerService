@@ -5,7 +5,7 @@ import javax.persistence.*;
 /**
  * Created by JakubWitczak on 18.12.2016.
  */
-@Entity(name = "beer")
+@Entity(name = "beers")
 public class Beer {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -18,7 +18,8 @@ public class Beer {
     private double alkPercentage;
     private double price;
 
-    public Beer(String brewery, String name, String type, int IBU, double alkPercentage, double price) {
+    public Beer(Long Id, String brewery, String name, String type, int IBU, double alkPercentage, double price) {
+        this.Id = Id;
         this.brewery = brewery;
         this.name = name;
         this.type = type;
@@ -29,10 +30,6 @@ public class Beer {
 
     public Long getId() {
         return Id;
-    }
-
-    public void setId(Long id) {
-        Id = id;
     }
 
     public String getBrewery() {
