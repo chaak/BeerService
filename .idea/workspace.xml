@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ff306c8-88d2-43b8-9f12-96a50bc80549" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="8ff306c8-88d2-43b8-9f12-96a50bc80549" name="Default" comment="" />
     <ignored path="beerservice.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -653,12 +649,12 @@
       <updated>1482115157442</updated>
       <workItem from="1482115160353" duration="121000" />
       <workItem from="1482115326844" duration="185000" />
-      <workItem from="1482115725416" duration="161000" />
+      <workItem from="1482115725416" duration="340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="467000" />
+    <option name="totallyTimeSpent" value="646000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
