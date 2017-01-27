@@ -28,6 +28,10 @@ public class Beer {
         this.price = price;
     }
 
+    public Beer(){
+
+    }
+
     public Long getId() {
         return Id;
     }
