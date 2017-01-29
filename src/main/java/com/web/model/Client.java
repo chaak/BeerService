@@ -23,7 +23,7 @@ public class Client {
     }
 
     public Client(){
-        
+
     }
 
     private String login;
