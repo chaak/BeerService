@@ -7,6 +7,7 @@ import javax.persistence.*;
  */
 @Entity(name = "beers")
 public class Beer {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "beer_id")
