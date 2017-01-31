@@ -11,5 +11,5 @@ import java.util.Collection;
  */
 @Repository
 public interface BeerDAO extends JpaRepository<Beer, Long> {
-    Collection<Beer> findByAcoountLogin(String login);
+    Collection<Beer> findByAccountLogin(String login);
 }

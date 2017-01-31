@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ff306c8-88d2-43b8-9f12-96a50bc80549" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/web/dao/AccountDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/web/dao/AccountDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/web/dao/BeerDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/web/dao/BeerDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/web/model/Account.java" afterPath="$PROJECT_DIR$/src/main/java/com/web/model/Account.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/web/model/Beer.java" afterPath="$PROJECT_DIR$/src/main/java/com/web/model/Beer.java" />
     </list>
     <ignored path="beerservice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +37,11 @@
       <file leaf-file-name="BeerServiceApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/web/BeerServiceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +50,8 @@
       <file leaf-file-name="Beer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/web/model/Beer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+            <state relative-caret-position="-131">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#934#935#0" expanded="true" />
@@ -64,8 +64,8 @@
       <file leaf-file-name="BeerDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/web/dao/BeerDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +76,8 @@
       <file leaf-file-name="BeerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/web/services/BeerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="102">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,10 +88,11 @@
       <file leaf-file-name="DefaultBeerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/web/services/impl/DefaultBeerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="247">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
                 <element signature="e#502#503#0" expanded="true" />
                 <element signature="e#553#554#0" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
@@ -103,8 +104,8 @@
       <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/web/model/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="204">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#717#718#0" expanded="true" />
@@ -190,8 +191,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/web/dao/ClientDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/model/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/rest/controller/BeerRestController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/web/model/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/dao/AccountDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/web/model/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/dao/BeerDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/web/model/Beer.java" />
       </list>
@@ -908,12 +909,12 @@
       <workItem from="1482116133001" duration="2101000" />
       <workItem from="1482119973662" duration="4016000" />
       <workItem from="1482130178180" duration="1348000" />
-      <workItem from="1485331095421" duration="15071000" />
+      <workItem from="1485331095421" duration="16306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23182000" />
+    <option name="totallyTimeSpent" value="24417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -935,7 +936,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48540705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35306334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -983,6 +984,7 @@
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1025,6 +1027,7 @@
           <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
             <element signature="e#595#596#0" expanded="true" />
@@ -1046,6 +1049,7 @@
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1088,6 +1092,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
             <element signature="e#502#503#0" expanded="true" />
             <element signature="e#553#554#0" expanded="true" />
             <element signature="e#595#596#0" expanded="true" />
@@ -1101,6 +1106,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1111,6 +1117,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1121,6 +1128,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1131,6 +1139,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1140,39 +1149,6 @@
         <state relative-caret-position="34">
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/web/BeerServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/web/services/BeerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/web/services/impl/DefaultBeerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,10 +1170,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/web/BeerServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/web/services/impl/DefaultBeerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/web/services/BeerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/web/model/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="204">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#717#718#0" expanded="true" />
@@ -1214,8 +1225,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/web/model/Beer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        <state relative-caret-position="-131">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#934#935#0" expanded="true" />
@@ -1226,8 +1237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/web/dao/BeerDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
