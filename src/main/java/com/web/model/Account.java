@@ -44,7 +44,6 @@ public class Account {
         return login;
     }
 
-
     public String getPassword() {
         return password;
     }

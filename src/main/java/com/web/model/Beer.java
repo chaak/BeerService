@@ -1,5 +1,7 @@
 package com.web.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 /**
@@ -8,10 +10,15 @@ import javax.persistence.*;
 @Entity(name = "beers")
 public class Beer {
 
+    @JsonIgnore
+    @ManyToOne
+    private Account account;
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "beer_id")
     private Long Id;
+
     private String brewery;
     private String name;
     private String type;
@@ -19,8 +26,8 @@ public class Beer {
     private double alkPercentage;
     private double price;
 
-    public Beer(Long Id, String brewery, String name, String type, int IBU, double alkPercentage, double price) {
-        this.Id = Id;
+    public Beer(Account account,String brewery, String name, String type, int IBU, double alkPercentage, double price) {
+        this.account = account;
         this.brewery = brewery;
         this.name = name;
         this.type = type;
@@ -29,8 +36,12 @@ public class Beer {
         this.price = price;
     }
 
-    public Beer(){
+    public Beer() {
 
+    }
+
+    public Account getAccount() {
+        return account;
     }
 
     public Long getId() {
