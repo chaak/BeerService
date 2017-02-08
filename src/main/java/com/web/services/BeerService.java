@@ -1,20 +1,19 @@
 package com.web.services;
 
 import com.web.model.Beer;
-
-import java.util.List;
+import java.util.Collection;
 
 /**
  * Created by JakubWitczak on 18.12.2016.
  */
 public interface BeerService {
-    List<Beer> getAllBeers();
-
-    Beer findById(Long id);
+    Collection<Beer> readBeers(String login);
 
     void addBeer(Beer newBeer);
 
     void updateBeer(Long id, Beer beerToUpdate);
 
     void deleteBeer(Long id);
+
+    void validateUser(String login);
 }
