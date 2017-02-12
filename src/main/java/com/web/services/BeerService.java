@@ -13,7 +13,7 @@ public interface BeerService {
 
     ResponseEntity<?> add(String login, Beer newBeer);
 
-    void updateBeer(Long id, Beer beerToUpdate);
+    void updateBeer(String login, Long id, Beer beer);
 
     void deleteBeer(String login, Long id);
 

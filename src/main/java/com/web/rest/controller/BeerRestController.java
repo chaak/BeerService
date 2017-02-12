@@ -26,7 +26,7 @@ public class BeerRestController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    void add(@PathVariable String login, @RequestBody Beer newBeer) {
+    void add(@PathVariable String login, @RequestBody Beer newBeer) {//wrong type!
         beerService.validateUser(login);
         beerService.add(login, newBeer);
     }
@@ -36,8 +36,8 @@ public class BeerRestController {
         beerService.deleteBeer(login, beerId);
     }
 
-//    @RequestMapping(method = RequestMethod.PUT, value = "/{beerId}")
-//    void updateBeer(@PathVariable("beerId") Long beerId, @RequestBody Beer beer) {
-//        beerService.updateBeer(beerId, beer);
-//    }
+    @RequestMapping(method = RequestMethod.PUT, value = "/{beerId}")
+    void updateBeer(@PathVariable String login, @PathVariable("beerId") Long beerId, @RequestBody Beer beer) {
+        beerService.updateBeer(login, beerId, beer);
+    }
 }

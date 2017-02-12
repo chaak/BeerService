@@ -45,10 +45,6 @@ public class Beer {
         return account;
     }
 
-    public Long getId() {
-        return id;
-    }
-
     public String getBrewery() {
         return brewery;
     }
@@ -71,6 +67,30 @@ public class Beer {
 
     public double getPrice() {
         return price;
+    }
+
+    public void setBrewery(String brewery) {
+        this.brewery = brewery;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public void setIbu(double ibu) {
+        this.ibu = ibu;
+    }
+
+    public void setAlkPercentage(double alkPercentage) {
+        this.alkPercentage = alkPercentage;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 
 }

@@ -46,7 +46,7 @@ public class DefaultBeerService implements BeerService {
                 .map(account -> {
 
                     Beer result = beerDAO.save(new Beer(newBeer.getAccount(), newBeer.getBrewery(), newBeer.getName(),
-                                newBeer.getType(), newBeer.getIbu(), newBeer.getAlkPercentage(), newBeer.getPrice()));
+                            newBeer.getType(), newBeer.getIbu(), newBeer.getAlkPercentage(), newBeer.getPrice()));
 
                     URI location = ServletUriComponentsBuilder
                             .fromCurrentRequest()
@@ -55,11 +55,20 @@ public class DefaultBeerService implements BeerService {
                     return ResponseEntity.created(location).build();
                 })
                 .orElse(ResponseEntity.noContent().build());
-       // beerDAO.saveAndFlush(newBeer);
+        // beerDAO.saveAndFlush(newBeer);
     }
 
     @Override
-    public void updateBeer(Long id, Beer beerToUpdate) {
+    public void updateBeer(String login, Long id, Beer beerToUpdate) {
+        this.validateUser(login);
+        Beer beer = beerDAO.findOne(id);
+        beer.setAlkPercentage(beerToUpdate.getAlkPercentage());
+        beer.setPrice(beerToUpdate.getPrice());
+        beer.setBrewery(beerToUpdate.getBrewery());
+        beer.setType(beerToUpdate.getType());
+        beer.setName(beerToUpdate.getName());
+        beer.setIbu(beerToUpdate.getIbu());
+        beerDAO.saveAndFlush(beer);
     }
 
     @Override
