@@ -3,6 +3,7 @@ package com.web.rest.controller;
 import com.web.model.Beer;
 import com.web.services.BeerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
@@ -24,30 +25,17 @@ public class BeerRestController {
         return beerService.readBeers(login);
     }
 
-//    @RequestMapping(method = RequestMethod.POST)
-//    ResponseEntity<?> addBeer(@PathVariable String userId, @RequestBody Beer input) {
-//        this.validateUser(userId);
-//
-//        return this.accountDAO
-//                .findByLogin(userId)
-//                .map(account -> {
-//                    Beer result = beerDAO.save(new Beer(account,
-//                            input.uri, input.description));
-//
-//                    URI location = ServletUriComponentsBuilder
-//                            .fromCurrentRequest().path("/{id}")
-//                            .buildAndExpand(result.getId()).toUri();
-//
-//                    return ResponseEntity.created(location).build();
-//                })
-//                .orElse(ResponseEntity.noContent().build());
-//
-//    }
-//    @RequestMapping(method = RequestMethod.DELETE, value = "/{beerId}")
-//    void deleteBeer(@PathVariable("beerId") Long beerId) {
-//        beerService.deleteBeer(beerId);
-//    }
-//
+    @RequestMapping(method = RequestMethod.POST)
+    void add(@PathVariable String login, @RequestBody Beer newBeer) {
+        beerService.validateUser(login);
+        beerService.add(login, newBeer);
+    }
+
+    @RequestMapping(method = RequestMethod.DELETE, value = "/{beerId}")
+    void deleteBeer(@PathVariable String login, @PathVariable("beerId") Long beerId) {
+        beerService.deleteBeer(login, beerId);
+    }
+
 //    @RequestMapping(method = RequestMethod.PUT, value = "/{beerId}")
 //    void updateBeer(@PathVariable("beerId") Long beerId, @RequestBody Beer beer) {
 //        beerService.updateBeer(beerId, beer);

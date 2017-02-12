@@ -15,7 +15,7 @@ public class Account {
     private Set<Beer> beers = new HashSet<>();
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue
     private Long id;
 
     @JsonIgnore
@@ -27,7 +27,7 @@ public class Account {
         this.password = password;
     }
 
-    public Account(){//for JPA
+    public Account(){
 
     }
 

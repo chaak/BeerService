@@ -1,6 +1,8 @@
 package com.web.services;
 
 import com.web.model.Beer;
+import org.springframework.http.ResponseEntity;
+
 import java.util.Collection;
 
 /**
@@ -9,11 +11,11 @@ import java.util.Collection;
 public interface BeerService {
     Collection<Beer> readBeers(String login);
 
-    void addBeer(Beer newBeer);
+    ResponseEntity<?> add(String login, Beer newBeer);
 
     void updateBeer(Long id, Beer beerToUpdate);
 
-    void deleteBeer(Long id);
+    void deleteBeer(String login, Long id);
 
     void validateUser(String login);
 }
